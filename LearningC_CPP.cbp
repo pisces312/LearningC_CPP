@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LearningC_CPP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LearningC_CPP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LearningC_CPP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="2d_array/2d_array.cpp" />
+		<Unit filename="2d_array/2d_array_c.h" />
+		<Unit filename="ManOrBoyTest.h" />
+		<Unit filename="PointAndArray2.h" />
+		<Unit filename="README.md" />
+		<Unit filename="Student.h" />
+		<Unit filename="arraypoint.h" />
+		<Unit filename="calculate.h" />
+		<Unit filename="ch01.h" />
+		<Unit filename="ch02.h" />
+		<Unit filename="ch03.h" />
+		<Unit filename="ch04.h" />
+		<Unit filename="ch04_4_2.h" />
+		<Unit filename="ch12_15.h" />
+		<Unit filename="class.h" />
+		<Unit filename="cmdargs.h" />
+		<Unit filename="dataconverter.h" />
+		<Unit filename="dcl.h" />
+		<Unit filename="difFunction.h" />
+		<Unit filename="file1.h" />
+		<Unit filename="file2.h" />
+		<Unit filename="hashlist.h" />
+		<Unit filename="linkknowledge.h" />
+		<Unit filename="linuxmktime.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mianshi.h" />
+		<Unit filename="myfile" />
+		<Unit filename="mystrcat.h" />
+		<Unit filename="oo/ViewVTable.cpp" />
+		<Unit filename="oo/单一继承内存布局.cpp" />
+		<Unit filename="oo/基类、子类含有同名的静态成员.cpp" />
+		<Unit filename="oo/多重继承父类函数重名的调用.cpp" />
+		<Unit filename="oo/多重继承的内存布局.cpp" />
+		<Unit filename="oo/拷贝构造函数.cpp" />
+		<Unit filename="oo/接受一个参数的构造函数允许使用赋值句法初始化对象.cpp" />
+		<Unit filename="oo/继承的权限.cpp" />
+		<Unit filename="oo/虚函数地址.cpp" />
+		<Unit filename="oo/虚继承.cpp" />
+		<Unit filename="oo/虚继承的内存布局.cpp" />
+		<Unit filename="oo/重复继承的内存布局.cpp" />
+		<Unit filename="oo/面向对象中的覆盖.cpp" />
+		<Unit filename="oo/默认构造函数.cpp" />
+		<Unit filename="pointandarray.cpp" />
+		<Unit filename="pointandarray.h" />
+		<Unit filename="struct.h" />
+		<Unit filename="talgorit.h" />
+		<Unit filename="tallocator.h" />
+		<Unit filename="testCIN.h" />
+		<Unit filename="testReference.h" />
+		<Unit filename="testSTLSet.h" />
+		<Unit filename="testbitfield.h" />
+		<Unit filename="testboost.h" />
+		<Unit filename="testctypeh.h" />
+		<Unit filename="testfloath.h" />
+		<Unit filename="testio.h" />
+		<Unit filename="testlimits.h" />
+		<Unit filename="testlinux.h" />
+		<Unit filename="testmarco.h" />
+		<Unit filename="testmathh.h" />
+		<Unit filename="testrandom.h" />
+		<Unit filename="teststdlibh.h" />
+		<Unit filename="teststl.h" />
+		<Unit filename="teststruct.h" />
+		<Unit filename="testtime.h" />
+		<Unit filename="testtyepdef.h" />
+		<Unit filename="testunion.h" />
+		<Unit filename="titerator.h" />
+		<Unit filename="tmemory.h" />
+		<Unit filename="tutility.h" />
+		<Unit filename="unkowntypeopr.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
